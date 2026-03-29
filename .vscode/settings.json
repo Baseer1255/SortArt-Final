@@ -1,0 +1,13 @@
+{
+  "eslint.workingDirectories": ["Sortart"],
+  "files.watcherExclude": {
+    "**/Sortart/.next/**": true,
+    "**/Sortart/node_modules/**": true
+  },
+  "search.exclude": {
+    "**/Sortart/.next": true,
+    "**/Sortart/node_modules": true
+  },
+  "typescript.tsdk": "Sortart/node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
